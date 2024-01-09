@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hearder_container{
+    width: 100%;
+    padding: 30px 40px;
+    background:#faf9ff;
+
+}
+.hearder_box{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.hearder_box ul{
+    max-width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+}
+
+.hearder_box li:hover{
+    cursor: pointer;
+    background: #232323;
+    transition: 0.5s;
+}
+.hearder_box li .list:hover{
+    color: #edeaf7;
+    transition: 0.5s;
+}
+.hearder_box li{
+    list-style: none;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background: #edeaf7;
+}
+
+.hearder_box li .list{
+ 
+    font-size: 2rem;
+
+
+}

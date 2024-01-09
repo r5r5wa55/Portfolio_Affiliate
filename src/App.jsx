@@ -1,38 +1,28 @@
+// eslint-disable-next-line no-unused-vars
 import { useState ,useEffect } from 'react'
+// eslint-disable-next-line no-unused-vars
 import axios from 'axios';
 import './App.css'
+import Nav from './component/Nav';
+import Home from './component/Home';
+import Rout from './component/Rout';
+import { BrowserRouter } from 'react-router-dom'
+
 
 function App() {
-  const [countz, setCount] = useState("")
 
-  useEffect(()=>{
-    
-    const loadpoke = ()=>{
-      try{
-        const respon = axios.get(`https://pokeapi.co/api/v2/pokemon/1`)
-
-        console.log(respon?.data);
-      }catch(error){
-        console.log("catch"+error);
-      }finally{
-        console.log("finally");
-      }
-    }
-
-    loadpoke()
-
-  },[])
-
-
-  console.log(countz)
 
   return (
-    <>
-     
-    
-   
+    < >
+      <BrowserRouter >
+        <Nav />
+        <Home />
+        <Rout />
+      </BrowserRouter>
     </>
   )
 }
+
+
 
 export default App
