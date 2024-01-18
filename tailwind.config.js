@@ -7,6 +7,30 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          maxWidth: "100%",
+          "@screen xs": {
+            maxWidth: "431px"
+          },
+          "@screen sm": {
+            maxWidth: "740px"
+          },
+          "@screen md": {
+            maxWidth: "768px"
+          },
+          "@screen lg": {
+            maxWidth: "1024px"
+          },
+          "@screen xl": {
+            maxWidth: "1280px"
+          }
+        }
+      });
+    }
+  ],
 }
 

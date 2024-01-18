@@ -4,9 +4,9 @@ import { useState ,useEffect } from 'react'
 import axios from 'axios';
 import './App.css'
 import Nav from './component/Nav';
-import Home from './component/Home';
 import Rout from './component/Rout';
 import { BrowserRouter } from 'react-router-dom'
+import Footer from './component/Footer';
 
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
     < >
       <BrowserRouter >
         <Nav />
-        <Home />
         <Rout />
+        <Footer />
       </BrowserRouter>
     </>
   )

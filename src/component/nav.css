@@ -4,19 +4,17 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.hearder_container{
-    width: 100%;
-    padding: 30px 40px;
-    background:#faf9ff;
 
-}
 .hearder_box{
     width: 50%;
     margin: 0 auto;
-
+    margin-top: 50px;
+    /* background:#faf9ff; */
 }
 
+
 .hearder_box ul{
+    margin: 0;
     max-width: 100%;
     padding: 20px 50px;
     display: flex;
@@ -43,7 +41,7 @@
 }
 
 .hearder_box li .list{
- 
+    margin: 0;
     font-size: 2rem;
 
 
