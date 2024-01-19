@@ -4,12 +4,16 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+.hearder_container{
+    background:#faf9ff;
+    height: 150PX;
+    padding: 50px;
+}
 .hearder_box{
     width: 50%;
     margin: 0 auto;
-    margin-top: 50px;
-    /* background:#faf9ff; */
+    background:#faf9ff;
+
 }
 
 
