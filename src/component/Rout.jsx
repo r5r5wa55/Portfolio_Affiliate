@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Project from './Project'
+import Working from './Working'
 
 export default function Rout() {
   return (
@@ -13,6 +14,9 @@ export default function Rout() {
           <Route path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/project' element={<Project />}/>
+          <Route path='/service' element={<Working />}/>
+          
+
       </Routes>   
     </>
   )
